@@ -21,11 +21,7 @@ const CreateAccount = () => {
 						className="w-full px-4 py-2 border border-neutral-600 rounded-md bg-neutral-900 focus:outline-none focus:ring-2 focus:ring-orange-600"
 					/>
 
-					<button
-						type="submit"
-						className="w-full py-2 px-4 bg-gradient-to-r from-orange-500 to-orange-800 rounded-md text-white font-semibold transition-all duration-300 hover:scale-105">
-						Create Account
-					</button>
+					<button className="w-full py-2 px-4 bg-gradient-to-r from-orange-500 to-orange-800 rounded-md text-white font-semibold transition-all duration-300 hover:scale-105">Create Account</button>
 				</form>
 
 				<p className="mt-6 text-center text-sm text-neutral-400">
