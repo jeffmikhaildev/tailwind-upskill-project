@@ -75,18 +75,18 @@ const Navbar = () => {
 						</ul>
 
 						<div className="flex space-x-6 mt-2">
-							<a
-								href="#"
+							<Link
+								to="/signin"
 								onClick={() => setMobileDrawerOpen(false)}
 								className="py-2 px-3 border  rounded-md transition-all duration-300 hover:bg-neutral-800 hover:text-white hover:scale-105">
 								Sign In
-							</a>
-							<a
-								href="#"
+							</Link>
+							<Link
+								to="/create-account"
 								onClick={() => setMobileDrawerOpen(false)}
 								className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md transition-all duration-300 hover:from-orange-600 hover:to-red-700 hover:scale-105">
 								Create an account
-							</a>
+							</Link>
 						</div>
 					</div>
 				)}
