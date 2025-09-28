@@ -12,23 +12,23 @@ const Hero = () => {
 			<div className="flex justify-center my-10">
 				<a
 					href="#"
-					className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
+					className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md transition-all duration-300 hover:from-orange-600 hover:to-red-700 hover:scale-105">
 					Start for free
 				</a>
 				<a
 					href="#"
-					className=" py-3 px-4 mx-3 border rounded-md">
+					className="py-3 px-4 mx-3 border rounded-md transition-all duration-300 hover:bg-neutral-800 hover:text-white hover:scale-105">
 					Documentation
 				</a>
 			</div>
 
-			<div className="flex mt-10 justify-center">
+			<div className="flex flex-col-reverse lg:flex-row mt-10 justify-center">
 				<video
 					autoPlay
 					loop
 					muted
 					controls
-					className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
+					className="rounded-lg w-full lg:w-[45%] border border-orange-700 shadow-orange-400 mx-2 my-4">
 					<source
 						src={video1}
 						type="video/mp4"
@@ -41,7 +41,7 @@ const Hero = () => {
 					loop
 					muted
 					controls
-					className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4">
+					className="rounded-lg w-full lg:w-[45%] border border-orange-700 shadow-orange-400 mx-2 my-4">
 					<source
 						src={video2}
 						type="video/mp4"

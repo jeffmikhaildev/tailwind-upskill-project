@@ -6,10 +6,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-	{ label: "Features", href: "#" },
-	{ label: "Workflow", href: "#" },
-	{ label: "Pricing", href: "#" },
-	{ label: "Testimonials", href: "#" },
+	{ label: "Features", href: "/#features" },
+	{ label: "Workflow", href: "/#workflow" },
+	{ label: "Pricing", href: "/#pricing" },
+	{ label: "Testimonials", href: "/#testimonials" },
 ];
 
 export const testimonials = [
@@ -23,19 +23,19 @@ export const testimonials = [
 		user: "Jane Smith",
 		company: "Blue Horizon Technologies",
 		image: user2,
-		text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+		text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life.",
 	},
 	{
 		user: "David Johnson",
 		company: "Quantum Innovations",
 		image: user3,
-		text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+		text: "Working with this company was good. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
 	},
 	{
 		user: "Ronee Brown",
 		company: "Fusion Dynamics",
 		image: user4,
-		text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+		text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible.",
 	},
 	{
 		user: "Michael Wilson",
